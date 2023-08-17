@@ -1,0 +1,66 @@
+{
+  "name": "pendable/laravel-client",
+  "type": "library",
+  "description": "Laravel package for sending mail via the Pendable API",
+  "keywords": [
+    "pendable",
+    "laravel",
+    "mail",
+    "email"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christophere Espiritu",
+      "email": "chris@pendable.io",
+      "homepage": "https://pendable.io/"
+    },
+    {
+      "name": "Jaspal Signh",
+      "email": "jaspal@pendable.io",
+      "homepage": "https://pendable.io/"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/mail": "^9.0|^10.0",
+    "illuminate/support": "^9.0|^10.0",
+    "pendable/symfony-mailer": "0.0.1"
+  },
+  "require-dev": {
+    "ext-gd": "*",
+    "fakerphp/faker": "^1.17",
+    "orchestra/testbench": "^7.19|^8.0",
+    "phpunit/phpunit": "^9.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Pendable\\Mail\\PendableServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Pendable\\Mail\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pendable\\Mail\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
