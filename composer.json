@@ -1,5 +1,5 @@
 {
-  "name": "pendable/laravel-client",
+  "name": "pendable/laravel-mailer",
   "type": "library",
   "description": "Laravel package for sending mail via the Pendable API",
   "keywords": [

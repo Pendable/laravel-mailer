@@ -2,6 +2,6 @@
 
 return [
     'pendable' => [
-        'key' => env('PENDABLE_KEY'),
+        'key' => env('PENDABLE_API_KEY'),
     ],
 ];
