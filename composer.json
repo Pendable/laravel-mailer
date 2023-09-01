@@ -11,12 +11,12 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Christophere Espiritu",
+      "name": "Christopher Espiritu",
       "email": "chris@pendable.io",
       "homepage": "https://pendable.io/"
     },
     {
-      "name": "Jaspal Signh",
+      "name": "Jaspal Singh",
       "email": "jaspal@pendable.io",
       "homepage": "https://pendable.io/"
     }
@@ -27,7 +27,7 @@
     "guzzlehttp/guzzle": "^7.0",
     "illuminate/mail": "^9.0|^10.0",
     "illuminate/support": "^9.0|^10.0",
-    "pendable/symfony-mailer": "0.0.1"
+    "pendable/symfony-mailer": "0.0.2"
   },
   "require-dev": {
     "ext-gd": "*",
