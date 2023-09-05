@@ -17,6 +17,7 @@ class PendableServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        $this->mergeConfigFrom(__DIR__ . '/config/mail.php', 'mail');
         $this->mergeConfigFrom(__DIR__ . '/config/services.php', 'services');
         Mail::extend('pendable', function (array $config = []) {
             return (new PendableTransportFactory)->create(new Dsn(
