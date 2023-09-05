@@ -1,9 +1,7 @@
 <?php
 
 return [
-    'mailers' => [
-        'pendable' => [
-            'transport' => 'pendable',
-        ],
+    'pendable' => [
+        'transport' => 'pendable',
     ]
 ];
