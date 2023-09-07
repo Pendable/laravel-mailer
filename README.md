@@ -3,6 +3,12 @@ Pendable Laravel Mailer
 
 Provides Pendable integration for Laravel. This package utilizes the [pendable-symfony](https://github.com/Pendable/symfony-mailer) mailer under the hood.
 
+Pendable 
+------------
+
+Pendable provides a wrapper service around Amazon SES adding capabilities to Parallelize your Email Sending, Prioritize your Emails, Schedule delivery in the future, Track Open, Click and other events, Active throttling based on your Bounces and Complaints, Filter Spam Domains, Maintain a healthy Contact list, Retrieve, Troubleshoot, and Resend messages, Timeline view of all customer communication.
+
+More info on [pendable.io](https://pendable.io/documentation)
 
 Installation
 ------------
