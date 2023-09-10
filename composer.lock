@@ -2114,16 +2114,16 @@
         },
         {
             "name": "pendable/symfony-mailer",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Pendable/symfony-mailer.git",
-                "reference": "c5c9173d6796ddf61dc55b228f7c4d5ca67812d7"
+                "reference": "f72bee416a4f366e7691d6ac75641a6e5f2177c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Pendable/symfony-mailer/zipball/c5c9173d6796ddf61dc55b228f7c4d5ca67812d7",
-                "reference": "c5c9173d6796ddf61dc55b228f7c4d5ca67812d7",
+                "url": "https://api.github.com/repos/Pendable/symfony-mailer/zipball/f72bee416a4f366e7691d6ac75641a6e5f2177c0",
+                "reference": "f72bee416a4f366e7691d6ac75641a6e5f2177c0",
                 "shasum": ""
             },
             "require": {
@@ -2161,9 +2161,9 @@
             "description": "Symfony Pendable Mailer Bridge",
             "support": {
                 "issues": "https://github.com/Pendable/symfony-mailer/issues",
-                "source": "https://github.com/Pendable/symfony-mailer/tree/v1.0.0"
+                "source": "https://github.com/Pendable/symfony-mailer/tree/v1.0.1"
             },
-            "time": "2023-09-01T12:14:00+00:00"
+            "time": "2023-09-10T12:55:08+00:00"
         },
         {
             "name": "phpoption/phpoption",
